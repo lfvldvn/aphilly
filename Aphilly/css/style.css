@@ -231,7 +231,7 @@ nav .scroll {
 }
 
 /*=========================END GERAL MAIN====================================*/
-
+.space {height: 7em;}
 /*=========================NAVEGATION PAGE CATEGORIES=========================*/
 /* ABOUT */
 #about {
@@ -384,7 +384,7 @@ nav .scroll {
     /* SPOTIFY DESKTOP*/
     .spotify {
         margin: 2.5rem auto 0;
-        width: 29rem;
+        width: 27rem;
         border: 2px solid #BBBAC1;
         border-radius: 15px;
         padding: 0;
