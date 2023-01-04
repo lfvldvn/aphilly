@@ -390,8 +390,8 @@
             max: 35,     // max tilt rotation (degrees)
             startX: 0,      // the starting tilt on the X axis, in degrees.
             startY: 0,      // the starting tilt on the Y axis, in degrees.
-            perspective: 500,   // Transform perspective, the lower the more extreme the tilt gets.
-            scale: 1.2,      // 2 = 200%, 1.5 = 150%, etc..
+            perspective: 800,   // Transform perspective, the lower the more extreme the tilt gets.
+            scale: 1.1,      // 2 = 200%, 1.5 = 150%, etc..
             speed: 200,    // Speed of the enter/exit transition
             transition: true,   // Set a transition on enter/exit.
             axis: null,   // What axis should be disabled. Can be X or Y.
@@ -403,10 +403,10 @@
             // you need to add .js-tilt-glare>.js-tilt-glare-inner by yourself
             "mouse-event-element": null,   // css-selector or link to HTML-element what will be listen mouse events
             gyroscope: true,   // Boolean to enable/disable device orientation detection,
-            gyroscopeMinAngleX: -30,    // This is the bottom limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the left border of the element;
-            gyroscopeMaxAngleX: 30,     // This is the top limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the right border of the element;
-            gyroscopeMinAngleY: -30,    // This is the bottom limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the top border of the element;
-            gyroscopeMaxAngleY: 30,     // This is the top limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the bottom border of the element;
+            gyroscopeMinAngleX: -25,    // This is the bottom limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the left border of the element;
+            gyroscopeMaxAngleX: 25,     // This is the top limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the right border of the element;
+            gyroscopeMinAngleY: -10,    // This is the bottom limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the top border of the element;
+            gyroscopeMaxAngleY: 10,     // This is the top limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the bottom border of the element;
 
         });
     </script>
